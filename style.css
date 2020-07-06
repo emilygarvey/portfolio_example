@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: plum;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: #A453A4;
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  border: 2px solid white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project img {
+  width: 400px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 5%;
+  text-align: left;
+}
+
+.left {
+  border: 5px solid darkslateblue;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+.contact img {
+  width: 150px;
+  margin: 25px;
+}
+
+a {
+  font-family: "Teko", sans-serif;
+  color: darkslateblue;
+  font-size: 20px;
+}
+
+a:visited {
+  font-family: "Teko", sans-serif;
+  color: darkslateblue;
+}
+
+a:hover {
+  font-family: "Teko", sans-serif;
+  color: plum;
+}
